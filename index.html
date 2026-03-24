@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Джаст / JustS — Все факты о стримере и ютубере</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-[#0a0a0a] text-white">
+
+    <!-- NAVBAR -->
+    <nav class="bg-black border-b-4 border-[#00ff41] sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-[#00ff41] text-black flex items-center justify-center text-2xl font-bold rotate-12 minecraft-block">💀</div>
+                <h1 class="text-3xl font-bold tracking-widest header-text">JUSTS</h1>
+                <span class="text-[#00ff41] text-sm mt-1">ДЖАСТ</span>
+            </div>
+            
+            <div class="hidden md:flex items-center gap-8 text-sm">
+                <a href="#about" class="hover:text-[#00ff41] transition-colors">О Джасте</a>
+                <a href="#facts" class="hover:text-[#00ff41] transition-colors">ФАКТЫ</a>
+                <a href="#mineshield" class="hover:text-[#00ff41] transition-colors">МАЙНШИЛД</a>
+                <a href="#links" class="hover:text-[#00ff41] transition-colors">ССЫЛКИ</a>
+            </div>
+            
+            <a href="https://www.twitch.tv/justs_js" target="_blank" 
+               class="bg-[#00ff41] hover:bg-white text-black px-6 py-2 text-sm font-bold flex items-center gap-2 transition-all">
+                <i class="fa-brands fa-twitch"></i>
+                СТРИМ СЕЙЧАС
+            </a>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <header id="home" class="hero-bg h-screen flex items-center relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <div class="inline-flex items-center gap-2 bg-black/70 px-4 py-2 rounded-full border border-[#00ff41] mb-6">
+                    <div class="w-3 h-3 bg-[#00ff41] animate-pulse rounded-full"></div>
+                    <span class="text-[#00ff41] text-sm font-medium">105K НА ТВИЧЕ • 169K НА ЮТУБЕ</span>
+                </div>
+                
+                <h1 class="text-6xl md:text-7xl font-black leading-none header-text mb-4">
+                    ДЖАСТ<br>JUSTS
+                </h1>
+                <p class="text-2xl text-[#00ff41] mb-8">Люблю кубики больше, чем кушать</p>
+                
+                <div class="flex flex-wrap gap-4">
+                    <a href="#facts" 
+                       class="bg-white text-black px-8 py-4 font-bold text-lg hover:scale-105 transition-transform flex items-center gap-3">
+                        <i class="fa-solid fa-cube"></i>
+                        ЧИТАТЬ ВСЕ ФАКТЫ
+                    </a>
+                    <a href="https://www.youtube.com/@JustS_js" target="_blank"
+                       class="border-2 border-[#00ff41] px-8 py-4 font-bold text-lg hover:bg-[#00ff41] hover:text-black transition-all flex items-center gap-3">
+                        <i class="fa-brands fa-youtube"></i>
+                        ЮТУБ КАНАЛ
+                    </a>
+                </div>
+                
+                <div class="mt-12 flex items-center gap-8 text-sm">
+                    <div>
+                        <span class="block text-[#00ff41]">ВОЗРАСТ</span>
+                        <span class="text-4xl font-bold">21</span>
+                    </div>
+                    <div>
+                        <span class="block text-[#00ff41]">ГОРОД</span>
+                        <span class="text-4xl font-bold">ПОД НОВОСИБИРСКОМ</span>
+                    </div>
+                    <div>
+                        <span class="block text-[#00ff41]">ХОББИ</span>
+                        <span class="text-4xl font-bold">ПРОГРАММИРОВАНИЕ</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Hero visual -->
+            <div class="hidden md:flex justify-center relative">
+                <div class="w-80 h-80 bg-gradient-to-br from-[#00ff41] to-black rounded-3xl rotate-12 p-4 shadow-2xl">
+                    <div class="w-full h-full bg-black rounded-2xl flex items-center justify-center text-[180px] minecraft-block">
+                        💀
+                    </div>
+                </div>
+                <div class="absolute -top-6 -right-6 bg-[#00ff41] text-black text-xs font-bold px-6 py-2 rounded-xl rotate-12 shadow-xl">
+                    НЕ ПОКАЗЫВАЕТ ЛИЦО
+                </div>
+                <div class="absolute bottom-8 -left-8 text-center">
+                    <div class="text-[#00ff41] text-sm">MineShield 1–4</div>
+                    <div class="text-5xl font-black">СЕРЫЙ КАРДИНАЛ</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Minecraft particles -->
+        <div class="absolute bottom-12 left-1/2 flex gap-8 text-4xl opacity-30">
+            <div class="minecraft-block">💀</div>
+            <div class="minecraft-block" style="animation-delay: 0.5s;">⛏️</div>
+            <div class="minecraft-block" style="animation-delay: 1s;">🔥</div>
+            <div class="minecraft-block" style="animation-delay: 1.5s;">🛸</div>
+        </div>
+    </header>
+
+    <!-- О Джасте -->
+    <section id="about" class="py-20 bg-black border-t-4 border-b-4 border-[#00ff41]">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-12 flex items-center justify-center gap-4">
+                <span class="text-[#00ff41]">КТО ТАКОЙ ДЖАСТ?</span>
+            </h2>
+            
+            <div class="grid md:grid-cols-12 gap-8 items-center">
+                <div class="md:col-span-7">
+                    <p class="text-lg leading-relaxed mb-6">
+                        Привет! Меня зовут <span class="text-[#00ff41] font-bold">Сёма</span>. Живу под Новосибирском. Мне 21 год. 
+                        Основное хобби — программирование. Стримлю и снимаю видео <span class="text-[#00ff41]">только про Minecraft</span>.
+                    </p>
+                    <p class="text-lg leading-relaxed">
+                        Участник всех четырёх сезонов легендарного МайнШилда. 
+                        Известен как «Тёмная лошадка» и «Серый кардинал» — потому что взламывает код игры и придумывает безумные механики, от которых у всех челюсть отвисает.
+                    </p>
+                    <div class="mt-8 flex items-center gap-4 text-sm bg-[#111] p-4 rounded-2xl">
+                        <i class="fa-solid fa-cat text-[#00ff41] text-3xl"></i>
+                        <div>
+                            <div class="font-bold">Есть кошка по имени Соня</div>
+                            <div class="text-gray-400">Иногда мяукает на стримах</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:col-span-5 bg-[#111] p-8 rounded-3xl border border-[#00ff41]/30">
+                    <div class="text-center">
+                        <div class="text-8xl mb-4">💀</div>
+                        <p class="uppercase text-[#00ff41] text-sm tracking-[4px]">Био с Твича</p>
+                        <p class="text-2xl font-medium">"люблю кубики и кушать, но кубики больше"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ФАКТЫ -->
+    <section id="facts" class="py-20 bg-[#111]">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-12 text-[#00ff41]">РАЗНЫЕ ФАКТЫ О ДЖАСТЕ</h2>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Fact 1 -->
+                <div class="fact-card bg-black border-2 border-[#00ff41] p-6 rounded-3xl">
+                    <div class="text-[#00ff41] text-5xl mb-4">1</div>
+                    <h3 class="text-xl font-bold mb-3">Не показывает лицо</h3>
+                    <p class="text-gray-400">Один из немногих стримеров МайнШилда, кто никогда не показывал лицо ни на стримах, ни в роликах.</p>
+                </div>
+                
+                <!-- Fact 2 -->
+                <div class="fact-card bg-black border-2 border-[#00ff41] p-6 rounded-3xl">
+                    <div class="text-[#00ff41] text-5xl mb-4">2</div>
+                    <h3 class="text-xl font-bold mb-3">Первый раз в МайнШилде в 15 лет</h3>
+                    <p class="text-gray-400">Присоединился к проекту ещё подростком и сразу начал творить безумие с кодом.</p>
+                </div>
+                
+                <!-- Fact 3 -->
+                <div class="fact-card bg-black border-2 border-[#00ff41] p-6 rounded-3xl">
+                    <div class="text-[#00ff41] text-5xl mb-4">3</div>
+                    <h3 class="text-xl font-bold mb-3">Серо-зелёные глаза</h3>
+                    <p class="text-gray-400">Сам рассказал на стриме. Больше личной инфы о внешности — не выдаёт.</p>
+                </div>
+                
+                <!-- Fact 4 -->
+                <div class="fact-card bg-black border-2 border-[#00ff41] p-6 rounded-3xl">
+                    <div class="text-[#00ff41] text-5xl mb-4">4</div>
+                    <h3 class="text-xl font-bold mb-3">Программист-трикстер</h3>
+                    <p class="text-gray-400">Создаёт свои моды прямо в игре: манекены оживают, предметы получают новые свойства, летающие элитры на бешеной скорости и т.д.</p>
+                </div>
+                
+                <!-- Fact 5 -->
+                <div class="fact-card bg-black border-2 border-[#00ff41] p-6 rounded-3xl">
+                    <div class="text-[#00ff41] text-5xl mb-4">5</div>
+                    <h3 class="text-xl font-bold mb-3">Никогда не был на сходках</h3>
+                    <p class="text-gray-400">Несмотря на участие во всех сезонах МайнШилда, Джаст ни разу не приезжал на оффлайн-встречи.</p>
+                </div>
+                
+                <!-- Fact 6 -->
+                <div class="fact-card bg-black border-2 border-[#00ff41] p-6 rounded-3xl">
+                    <div class="text-[#00ff41] text-5xl mb-4">6</div>
+                    <h3 class="text-xl font-bold mb-3">Раньше был Just_Endy</h3>
+                    <p class="text-gray-400">Старый ник, из-за которого в чате постоянно шутили про «Эндичку».</p>
+                </div>
+                
+                <!-- Fact 7 -->
+                <div class="fact-card bg-black border-2 border-[#00ff41] p-6 rounded-3xl">
+                    <div class="text-[#00ff41] text-5xl mb-4">7</div>
+                    <h3 class="text-xl font-bold mb-3">Первый открыл путь в Лимбо</h3>
+                    <p class="text-gray-400">На втором сезоне МайнШилда именно Джаст нашёл секретный путь в Лимбо.</p>
+                </div>
+                
+                <!-- Fact 8 -->
+                <div class="fact-card bg-black border-2 border-[#00ff41] p-6 rounded-3xl">
+                    <div class="text-[#00ff41] text-5xl mb-4">8</div>
+                    <h3 class="text-xl font-bold mb-3">Пиццерия Фредди в Minecraft</h3>
+                    <p class="text-gray-400">Построил рабочую пиццерию Фредди с полноценным модом на 3-м сезоне.</p>
+                </div>
+                
+                <!-- Fact 9 -->
+                <div class="fact-card bg-black border-2 border-[#00ff41] p-6 rounded-3xl">
+                    <div class="text-[#00ff41] text-5xl mb-4">9</div>
+                    <h3 class="text-xl font-bold mb-3">Жил в пещерке два сезона</h3>
+                    <p class="text-gray-400">Первые два сезона МайнШилда обживал маленькую пещерку — как настоящий отшельник.</p>
+                </div>
+                
+                <!-- Fact 10 -->
+                <div class="fact-card bg-black border-2 border-[#00ff41] p-6 rounded-3xl">
+                    <div class="text-[#00ff41] text-5xl mb-4">10</div>
+                    <h3 class="text-xl font-bold mb-3">Бессмертие в межсезонье</h3>
+                    <p class="text-gray-400">Упоминал на стриме, что получает бессмертие в межсезонье — звучит эпично, даже если это игровая механика.</p>
+                </div>
+                
+                <!-- Fact 11 -->
+                <div class="fact-card bg-black border-2 border-[#00ff41] p-6 rounded-3xl">
+                    <div class="text-[#00ff41] text-5xl mb-4">11</div>
+                    <h3 class="text-xl font-bold mb-3">Ночные звонки по МайнШилду</h3>
+                    <p class="text-gray-400">Иногда участники звонят ему в 3 часа ночи по делам проекта — и он всегда отвечает.</p>
+                </div>
+                
+                <!-- Fact 12 -->
+                <div class="fact-card bg-black border-2 border-[#00ff41] p-6 rounded-3xl">
+                    <div class="text-[#00ff41] text-5xl mb-4">12</div>
+                    <h3 class="text-xl font-bold mb-3">«Пещера Джаста» в Telegram</h3>
+                    <p class="text-gray-400">В своём Telegram-канале показывает арты от зрителей и наработки по модам — там он открытей, чем на стриме.</p>
+                </div>
+                
+                <!-- Fact 13 -->
+                <div class="fact-card bg-black border-2 border-[#00ff41] p-6 rounded-3xl">
+                    <div class="text-[#00ff41] text-5xl mb-4">13</div>
+                    <h3 class="text-xl font-bold mb-3">Любит, когда чат «дампит»</h3>
+                    <p class="text-gray-400">Признавался, что нравится, когда зрители рассказывают все события недели — как будто живёт через комьюнити.</p>
+                </div>
+                
+                <!-- Fact 14 -->
+                <div class="fact-card bg-black border-2 border-[#00ff41] p-6 rounded-3xl">
+                    <div class="text-[#00ff41] text-5xl mb-4">14</div>
+                    <h3 class="text-xl font-bold mb-3">Закрытый лор персонажа</h3>
+                    <p class="text-gray-400">В недавних видео говорил про лор своего персонажа на 4 сезоне — ему интересна именно такая «закрытая» роль.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- МАЙНШИЛД -->
+    <section id="mineshield" class="py-20 bg-black">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-4">УЧАСТИЕ В МАЙНШИЛДЕ</h2>
+            <p class="text-center text-[#00ff41] mb-12">Сезоны 1 • 2 • 3 • 4 • Всегда в деле</p>
+            
+            <div class="grid md:grid-cols-4 gap-6">
+                <div class="border border-[#00ff41]/50 rounded-3xl p-6 hover:border-[#00ff41]">
+                    <div class="text-2xl font-bold mb-2">СЕЗОН 1</div>
+                    <ul class="text-sm space-y-2 text-gray-400">
+                        <li>✓ Построил банк и ферму тотемов</li>
+                        <li>✓ Дирижабль с Kappa</li>
+                        <li>✓ Магазин «Хижина Бессмертия»</li>
+                    </ul>
+                </div>
+                <div class="border border-[#00ff41]/50 rounded-3xl p-6 hover:border-[#00ff41]">
+                    <div class="text-2xl font-bold mb-2">СЕЗОН 2</div>
+                    <ul class="text-sm space-y-2 text-gray-400">
+                        <li>✓ Ферма тотемов + война с Торговым Альянсом</li>
+                        <li>✓ Взорвал яйцо дракона</li>
+                        <li>✓ Создал моды на телепортацию</li>
+                    </ul>
+                </div>
+                <div class="border border-[#00ff41]/50 rounded-3xl p-6 hover:border-[#00ff41]">
+                    <div class="text-2xl font-bold mb-2">СЕЗОН 3</div>
+                    <ul class="text-sm space-y-2 text-gray-400">
+                        <li>✓ Лабиринт с Варденом</li>
+                        <li>✓ Пиццерия Фредди</li>
+                        <li>✓ Золотые топоры Дровосеков</li>
+                    </ul>
+                </div>
+                <div class="border border-[#00ff41]/50 rounded-3xl p-6 hover:border-[#00ff41]">
+                    <div class="text-2xl font-bold mb-2">СЕЗОН 4</div>
+                    <ul class="text-sm space-y-2 text-gray-400">
+                        <li>✓ Трикстер-режим</li>
+                        <li>✓ Ожившие манекены</li>
+                        <li>✓ Летающая тарелка НЛО</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ССЫЛКИ -->
+    <section id="links" class="py-20 bg-[#111]">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h2 class="text-4xl font-bold mb-12">ГДЕ НАЙТИ ДЖАСТА</h2>
+            
+            <div class="flex flex-wrap justify-center gap-8">
+                <a href="https://www.twitch.tv/justs_js" target="_blank" 
+                   class="group flex flex-col items-center w-48 hover:scale-110 transition-transform">
+                    <div class="w-20 h-20 bg-purple-600 rounded-2xl flex items-center justify-center text-5xl mb-4 group-hover:rotate-12 transition-transform">📺</div>
+                    <span class="text-xl font-bold">Twitch</span>
+                    <span class="text-[#00ff41] text-sm">justs_js • 105K</span>
+                </a>
+                
+                <a href="https://www.youtube.com/@JustS_js" target="_blank" 
+                   class="group flex flex-col items-center w-48 hover:scale-110 transition-transform">
+                    <div class="w-20 h-20 bg-red-600 rounded-2xl flex items-center justify-center text-5xl mb-4 group-hover:rotate-12 transition-transform">📽️</div>
+                    <span class="text-xl font-bold">YouTube</span>
+                    <span class="text-[#00ff41] text-sm">Just_S • 169K</span>
+                </a>
+                
+                <a href="https://t.me/justs_js" target="_blank" 
+                   class="group flex flex-col items-center w-48 hover:scale-110 transition-transform">
+                    <div class="w-20 h-20 bg-blue-500 rounded-2xl flex items-center justify-center text-5xl mb-4 group-hover:rotate-12 transition-transform">📬</div>
+                    <span class="text-xl font-bold">Telegram</span>
+                    <span class="text-[#00ff41] text-sm">Пещера Джаста</span>
+                </a>
+                
+                <a href="https://discord.gg/justs" target="_blank" 
+                   class="group flex flex-col items-center w-48 hover:scale-110 transition-transform">
+                    <div class="w-20 h-20 bg-[#5865F2] rounded-2xl flex items-center justify-center text-5xl mb-4 group-hover:rotate-12 transition-transform">💬</div>
+                    <span class="text-xl font-bold">Discord</span>
+                    <span class="text-[#00ff41] text-sm">Сервер Джаста</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-black py-12 border-t-4 border-[#00ff41]">
+        <div class="max-w-7xl mx-auto px-6 text-center text-xs text-gray-500">
+            <p>Сайт сделан специально для Джаста, создано Cossack_mushroom и Grok'ом ❤️</p>
+            <p class="mt-2">Все факты собраны из официальных источников: Twitch, YouTube, MineShield Вики (март 2026)</p>
+            <p class="mt-6 text-[#00ff41]">Кубики forever 💀</p>
+        </div>
+    </footer>
+
+    <script>
+        // Tailwind script already loaded
+        function initializeTailwind() {
+            return {
+                config(userConfig = {}) {
+                    return {
+                        configUser: userConfig,
+                        theme: {
+                            extend: {},
+                        },
+                    }
+                },
+                theme: {
+                    extend: {},
+                },
+            }
+        }
+        console.log('%c✅ Сайт для Джаста загружен! Наслаждайся фактами о кубиках 💀', 'color:#00ff41; font-family:monospace');
+    </script>
+</body>
+</html>
